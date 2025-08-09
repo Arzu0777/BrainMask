@@ -34,7 +34,7 @@ BrainMask/
 
 ## 🛠 Installation  
 ```bash
-git clone https://github.com/username/BrainMask.git
+git clone https://github.com/Arzu0777/BrainMask.git
 cd BrainMask
 pip install -r requirements.txt
 ```
