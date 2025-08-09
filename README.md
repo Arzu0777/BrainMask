@@ -1,7 +1,7 @@
 # 🧠 BrainMask
 **Whole Tumor Segmentation in Brain MRI using Attention U-Net with Squeeze-and-Excitation Blocks**  
 
-![Training Curves](BrainMask/results/training_curves.png)  
+![Training Curves](/results/training_curves.png)  
 
 ---
 
