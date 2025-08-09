@@ -55,4 +55,4 @@ python main.py --train --epochs 100 --batch_size 8
 | IoU      | 0.85+ |
 
 **Sample Prediction:**  
-![Prediction](BrainMask/results/sample_0_pred.png)  
+![Prediction](/results/sample_4_pred.png)  
