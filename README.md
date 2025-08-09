@@ -1,7 +1,7 @@
 # 🧠 BrainMask
 **Whole Tumor Segmentation in Brain MRI using Attention U-Net with Squeeze-and-Excitation Blocks**  
 
-![Training Curves](Brain_WT/results/training_curves.png)  
+![Training Curves](BrainMask/results/training_curves.png)  
 
 ---
 
@@ -55,4 +55,4 @@ python main.py --train --epochs 100 --batch_size 8
 | IoU      | 0.85+ |
 
 **Sample Prediction:**  
-![Prediction](Brain_WT/results/sample_0_pred.png)  
+![Prediction](BrainMask/results/sample_0_pred.png)  
