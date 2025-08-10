@@ -23,11 +23,12 @@ The model architecture is based on **Attention U-Net** with **Residual Connectio
 ## 📂 Repository Structure  
 ```
 BrainMask/
-│── main.py                # Training & evaluation pipeline  
-│── requirements.txt       # Dependencies  
 │── checkpoints/           # Saved model weights  
 │── results/               # Predictions, training curves  
-│── data/                  # (Optional) Place dataset here  
+│── data/                  # Place dataset here  
+|── scripts/               # Contains all core Python scripts for model training, evaluation, and visualization
+│── main.py                # Runs the full pipeline: data loading → model training → evaluation → visualization  
+│── requirements.txt       # Dependencies  
 ```
 
 ---
@@ -43,7 +44,7 @@ pip install -r requirements.txt
 
 ## 📊 Training  
 ```bash
-python main.py --train --epochs 100 --batch_size 8
+python main.py --train --epochs 30 --batch_size 8
 ```
 
 ---
@@ -56,3 +57,4 @@ python main.py --train --epochs 100 --batch_size 8
 
 **Sample Prediction:**  
 ![Prediction](/results/sample_4_pred.png)  
+![Prediction](/results/sample_3_pred.png)  
